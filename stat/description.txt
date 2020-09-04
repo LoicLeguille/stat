@@ -1,0 +1,10 @@
+Afin de déterminer le meilleur estimateur entre T1, T3’ et T4 nous avons estimé 
+une loi exponentielle de paramètre thêta sur Python par la formule suivante: - thêta * ln(u).
+La réciproque de la fonction de répartition est la fonction qui à u associe 
+– thêta * ln(1 – u) et simuler la variable 1 – U, 
+quand U suit la loi continue uniforme entre 0 et 1, équivaut à simuler directement U.
+Nous avons ensuite réalisé 100 observations d'un échantillon de taille 1 000 à partir de cette loi.
+Grace à la représentation graphique de ces données nous apercevons que l’estimateur T1 
+est plus centré sur thêta et moins dispersé contrairement aux estimateurs T3’ et T4.
+Nous pouvons donc en conclure que l’estimateur T1 est le plus juste et précis des estimateurs.
+
